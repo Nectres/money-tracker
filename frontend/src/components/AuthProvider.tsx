@@ -5,8 +5,9 @@ import { axiosClient } from "../utils";
 export default function AuthProvider({ children }: { children: any }) {
   const [user, setUser] = useState({
     user: { monthly_budget: 0, username: "" },
-    logged_in: false, 
+    logged_in: false,
     loading: true,
+    total_monthly_spend: 0,
   });
 
   async function load() {

@@ -113,8 +113,8 @@ export default function TxList() {
         </Button>
       </div>
       {txs.length < 1 ? <p>No transactions :( </p> : null}
-      {txs.map((tx) => (
-        <div className={style.container}>
+      {txs.map((tx, index) => (
+        <div key={index} className={style.container}>
           <div
             style={{
               display: "flex",

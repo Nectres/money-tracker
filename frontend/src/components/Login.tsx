@@ -11,7 +11,6 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const [msg, setMsg] = useState("");
   const [err, setErr] = useState("");
-  const [loc, setLoc] = useLocation();
 
   async function handle() {
     let resp = await axiosClient.post("user/login", {
@@ -27,7 +26,7 @@ export default function Login() {
     } else {
       setMsg(resp.data.data);
       console.log("login");
-      setLoc("/");
+      location.href = "/";
     }
     console.log(resp.data);
   }

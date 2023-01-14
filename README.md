@@ -1,6 +1,6 @@
-# Money Tracker - Cohesive Assignment
+# Money Tracker - Cohesive Assignment 
 
-A simple budget tracking web application. 
+**monet** (money tracker) is a simple budget tracking web application. 
 Track and receive insights using various information about transactions made.
 Split transaction amounts with different users.
 Authenticates using username and hash of the password.
