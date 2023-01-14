@@ -29,7 +29,9 @@ function App() {
 
   return (
     <div>
-      <ProfileEdit show={profileEdit} setShow={setProfileEdit}></ProfileEdit>
+      {profileEdit ? (
+        <ProfileEdit show={profileEdit} setShow={setProfileEdit}></ProfileEdit>
+      ) : null}
       {location == "/" ? (
         <Navbar
           style={{

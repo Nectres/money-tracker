@@ -27,7 +27,9 @@ Other notable libraries used:
 ![image](https://user-images.githubusercontent.com/12008678/212482993-106d39a0-b1e8-441f-b256-3ce39372417a.png)
 
 ## Installation
-- Run the command `npm run dev:prepare`, this command will install and initialize all the required packages
+- Clone into the repo using:  `git clone https://github.com/Nectres/money-tracker`
+- Go into the directory `cd money-trakcer`
+- Run the command `npm run dev-prepare`, this command will install and initialize all the required packages
 - Once installed, run the `npm run dev` to start both the frontend and backend server. Please wait for the `Express Server started` message to appear in the console
 - Then head to `http://localhost:5173` in your browser to start using the application
 ## Demo Credentials:
