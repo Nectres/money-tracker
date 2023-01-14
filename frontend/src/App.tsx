@@ -35,6 +35,7 @@ function App() {
       {location == "/" ? (
         <Navbar
           style={{
+            zIndex: "100",
             background: "rgba(148, 216, 255, 0.4)",
             padding: "20px",
             backdropFilter: "blur(8px)",
